@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 5px solid;
+    margin: 10px;
+
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+

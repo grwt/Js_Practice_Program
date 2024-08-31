@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+    /* height: 100px; */
+    /* width: 100px; */
+}
+.center{
+    /* background-color: blue; */
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#banner{
+    font-size: 45px;
+}
+#clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 30px;
+    width: 150px;
+    padding: 1em;
+    border-radius: 4px;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
