@@ -37,12 +37,13 @@ input {
 
 button {
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
 }
 
 button:hover {
@@ -50,11 +51,22 @@ button:hover {
 }
 
 .bmi-guide {
-    margin-top: 20px;
+    
+    margin-top: 50px;
     font-size: 14px;
 }
 
 #result {
-    margin-top: 15px;
+    padding: 5px;
+    margin-top: 25px;
     font-weight: bold;
+    font-size:25px;
+    border-radius: 12px;
+}
+#dis{
+    padding: 5px;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size:20px;
+    
 }
